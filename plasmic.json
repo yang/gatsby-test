@@ -1,0 +1,152 @@
+{
+  "platform": "gatsby",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "inlined",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/public/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "./src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "tnM4fJ4V3QSWAt6aqkZcfw",
+      "projectName": "Copy of nm",
+      "version": "latest",
+      "cssFilePath": "plasmic/copy_of_nm/plasmic_copy_of_nm.module.css",
+      "components": [
+        {
+          "id": "B4PSLPMggBQC",
+          "name": "NmMenu",
+          "type": "managed",
+          "projectId": "tnM4fJ4V3QSWAt6aqkZcfw",
+          "renderModuleFilePath": "plasmic/copy_of_nm/PlasmicNmMenu.jsx",
+          "importSpec": {
+            "modulePath": "NmMenu.jsx"
+          },
+          "cssFilePath": "plasmic/copy_of_nm/PlasmicNmMenu.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "AHDP_gGUT0_Z",
+          "name": "NmImageCarouselShim",
+          "type": "managed",
+          "projectId": "tnM4fJ4V3QSWAt6aqkZcfw",
+          "renderModuleFilePath": "plasmic/copy_of_nm/PlasmicNmImageCarouselShim.jsx",
+          "importSpec": {
+            "modulePath": "NmImageCarouselShim.jsx"
+          },
+          "cssFilePath": "plasmic/copy_of_nm/PlasmicNmImageCarouselShim.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "-1PcR9_co3L6d",
+          "name": "NmVariantSelectionButton",
+          "type": "managed",
+          "projectId": "tnM4fJ4V3QSWAt6aqkZcfw",
+          "renderModuleFilePath": "plasmic/copy_of_nm/PlasmicNmVariantSelectionButton.jsx",
+          "importSpec": {
+            "modulePath": "NmVariantSelectionButton.jsx"
+          },
+          "cssFilePath": "plasmic/copy_of_nm/PlasmicNmVariantSelectionButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "hs4EtlOe_iskB",
+          "name": "NmProductTitleAndStars",
+          "type": "managed",
+          "projectId": "tnM4fJ4V3QSWAt6aqkZcfw",
+          "renderModuleFilePath": "plasmic/copy_of_nm/PlasmicNmProductTitleAndStars.jsx",
+          "importSpec": {
+            "modulePath": "NmProductTitleAndStars.jsx"
+          },
+          "cssFilePath": "plasmic/copy_of_nm/PlasmicNmProductTitleAndStars.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "q-7jyH5zxIpxa",
+          "name": "NmProductDescription",
+          "type": "managed",
+          "projectId": "tnM4fJ4V3QSWAt6aqkZcfw",
+          "renderModuleFilePath": "plasmic/copy_of_nm/PlasmicNmProductDescription.jsx",
+          "importSpec": {
+            "modulePath": "NmProductDescription.jsx"
+          },
+          "cssFilePath": "plasmic/copy_of_nm/PlasmicNmProductDescription.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "gY1sAZRLnE17A",
+          "name": "ShopNow",
+          "type": "managed",
+          "projectId": "tnM4fJ4V3QSWAt6aqkZcfw",
+          "renderModuleFilePath": "plasmic/copy_of_nm/PlasmicShopNow.jsx",
+          "importSpec": {
+            "modulePath": "ShopNow.jsx"
+          },
+          "cssFilePath": "plasmic/copy_of_nm/PlasmicShopNow.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "MiEAu-UAL3",
+          "name": "ShopNow2",
+          "type": "managed",
+          "projectId": "tnM4fJ4V3QSWAt6aqkZcfw",
+          "renderModuleFilePath": "plasmic/copy_of_nm/PlasmicShopNow2.jsx",
+          "importSpec": {
+            "modulePath": "../pages/products/shopnow.jsx"
+          },
+          "cssFilePath": "plasmic/copy_of_nm/PlasmicShopNow2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "LPNdthy-FpIyO",
+          "name": "ArrowForward24PxsvgIcon",
+          "moduleFilePath": "plasmic/copy_of_nm/icons/PlasmicIcon__ArrowForward24Pxsvg.jsx"
+        },
+        {
+          "id": "6d3gmgPb3EiUf",
+          "name": "Star24PxsvgIcon",
+          "moduleFilePath": "plasmic/copy_of_nm/icons/PlasmicIcon__Star24Pxsvg.jsx"
+        }
+      ],
+      "images": [],
+      "jsBundleThemes": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "XcZHgqDcMWd79",
+        "name": "Screen",
+        "projectId": "tnM4fJ4V3QSWAt6aqkZcfw",
+        "contextFilePath": "plasmic/copy_of_nm/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "gatsbyConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.98",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.98/dist/plasmic.schema.json"
+}

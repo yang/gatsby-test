@@ -1,0 +1,19 @@
+{
+  "props": [
+    {
+      "name": "Theme Color",
+      "type": "color",
+      "value": "rgb(235,102,173)",
+      "category": "color",
+      "meta": {
+        "projectId": "tnM4fJ4V3QSWAt6aqkZcfw",
+        "id": "53x_VVPCmpVXW"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}

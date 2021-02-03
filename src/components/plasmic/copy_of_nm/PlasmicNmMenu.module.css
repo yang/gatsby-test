@@ -1,0 +1,115 @@
+.root {
+  display: flex;
+  width: 100%;
+  height: auto;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 4px 0px rgb(240, 240, 240);
+  min-width: 0;
+  padding: 5px 10px;
+}
+@media (min-width: 0px) and (max-width: 575px) {
+  .root {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .root {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .root {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .root {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .root {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 1400px) {
+  .root {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  @media (min-width: 768px) and (max-width: 991px) {
+    .root {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+}
+@media (min-width: 0px) and (max-width: 575px) {
+  @media (min-width: 576px) and (max-width: 767px) {
+    @media (min-width: 768px) and (max-width: 991px) {
+      @media (min-width: 992px) and (max-width: 1199px) {
+        @media (min-width: 1200px) and (max-width: 1399px) {
+          @media (min-width: 1400px) {
+            .root {
+              padding-top: 10px;
+              padding-bottom: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.columns {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  align-items: stretch;
+  align-self: center;
+  min-width: 0;
+}
+.column {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 0;
+  justify-content: center;
+  align-items: center;
+}
+.box__c7Iv {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: center;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  min-width: 30px;
+  min-height: 30px;
+  width: 1em;
+  height: 1em;
+}
+.box__bcHrn {
+  position: relative;
+  font-family: "Open Sans";
+  font-size: 26px;
+  color: rgb(235, 102, 173) /* plasmic-token: 53x_VVPCmpVXW */;
+  margin-left: 5px;
+}
